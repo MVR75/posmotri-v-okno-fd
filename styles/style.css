@@ -267,6 +267,7 @@ ol {
 }
 
 .button {
+  min-height: 34px;
   border: 1px solid #fff;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -274,7 +275,6 @@ ol {
   font-size: 18px;
   background-color: transparent;
   cursor: pointer;
-  min-height: 34px;
 }
 
 .button:hover {
