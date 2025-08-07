@@ -81,6 +81,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -186,7 +187,7 @@ ol {
   height: 298px;
   margin-top: 17px;
   margin-top: 22px;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 .content__list {
@@ -252,7 +253,7 @@ ol {
 .content__video-card-description {
   display: -webkit-box;
   overflow: hidden;
-  line-height: 16.2px;
+  line-height: 1.1;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   line-clamp: 4;
@@ -273,6 +274,7 @@ ol {
   font-size: 18px;
   background-color: transparent;
   cursor: pointer;
+  min-height: 34px;
 }
 
 .button:hover {
@@ -293,10 +295,8 @@ ol {
 .search-form__submit-button {
   align-self: end;
   width: 194px;
-  height: 34px;
 }
 
 .more-button {
   width: 100%;
-  min-height: 34px;
 }
